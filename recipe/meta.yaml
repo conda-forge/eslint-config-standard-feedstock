@@ -1,5 +1,5 @@
 {% set name = "eslint-config-standard" %}
-{% set version = "16.0.3" %}
+{% set version = "17.1.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,11 +7,11 @@ package:
 
 source:
   url: https://github.com/standard/eslint-config-standard/archive/refs/tags/v{{ version }}.tar.gz
-  sha256: 240860cad78959d5184d3047d2a0aa21436873c8e87ba23ab98a6e2e5bf13478
+  sha256: 0e006be24f276146706ae8d567c1cea1b9944df600676e9865fb44c629727c8c
 
 build:
   skip: true  # [win]
-  number: 2
+  number: 0
 
 requirements:
   build:
